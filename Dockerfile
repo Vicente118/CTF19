@@ -7,6 +7,8 @@ RUN mkdir -p ~/CTF
 
 WORKDIR ~/CTF
 
+COPY ./config.ovpn .
+
 RUN /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 RUN wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
