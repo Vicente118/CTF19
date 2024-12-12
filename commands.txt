@@ -1,0 +1,31 @@
+		OPENVPN (Connexion au reseau de la machine cible):
+- openvpn --config config.ovpn --daemon
+
+
+
+		PING (Ping la machine cible pour verifier la bonne communication):
+- ping <ip>
+
+
+		NMAP (Scan de ports):
+- nmap -sV -sC -T4 <ip>     =>  -sV : Scan les versions des services
+				 -sC : Test les scripts par defaut sur les services
+				 -T4 : Permet d'aller plus vite (Scan aggressif)
+
+
+		FTP (Connexion au serveur ftp mal configure):
+- ftp <ip>         => (Verifier si le service ftp est mal configure : Username = anonymous
+								       Password = (no password)
+	- get <file>     => Transfert un fichier du serveur ftp sur note machine (Il faut donc etre connecter au serveur ftp) 
+  
+
+		HYDRA (Brute Force mot de passe ssh):
+- hydra -l <username> -P <wordlist> <ip> ssh -v -t 4        => -t 4 : Utilisations de 4 threads pour aller plus vite
+								-v   : Ajoute de la verbosite, affiche tous les tests d'HYDRA
+
+		SSH (Connexion a la machine cible):
+- ssh <username>@<ip> -p <port>
+
+
+		SUDO -L  (Escalade de privilege) : 
+- sudo -l        =>    Affiche les commandes que l'utilisateur courant peut executer avec sudo sans mot de passe
