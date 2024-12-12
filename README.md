@@ -6,7 +6,7 @@ Launch environment :
 -  Rename your OpenVPN file to config.ovpn
 -  chmod 777 script.sh
 -  ./script.sh
-
+-  Open new terminal to see the commands.txt in the repo
 
 If you went out of the environment :
 

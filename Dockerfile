@@ -1,6 +1,6 @@
 FROM debian:bullseye
 
-RUN apt-get update -y && apt-get upgrade && apt-get install hydra-gtk -y && \
+RUN apt-get update -y && apt-get upgrade && apt-get install iputils-ping hydra-gtk -y && \
 					    apt install openssh-server nmap ftp curl zsh git -y && \
 					    apt install openvpn easy-rsa -y
 RUN mkdir -p ~/CTF
