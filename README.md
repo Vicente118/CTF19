@@ -20,7 +20,7 @@ If you have an error while lauching environment
 - Then try again the first 4 steps
 ```
 
-If it still doesnt work then ask to Cameron or Vicente
+If it still doesnt work then ask to Kamron or Vicente
 
 
 ###   COMMANDS   ####
