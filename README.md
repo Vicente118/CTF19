@@ -22,3 +22,9 @@ If you have an error while lauching environment
 
 If it still doesnt work then ask to Cameron or Vicente
 
+
+###   COMMANDS   ####
+
+![alt text](./commands.png)
+
+
