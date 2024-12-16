@@ -1,5 +1,7 @@
 ###   FOLLOW INSTRUCTIONS  ###
 
+ROOM on TryHackMe : Brooklyn Nine Nine
+
 Launch environment :
 ```
 -  Download you OpenVPN file on TryHackMe and move it to this repository
@@ -7,6 +9,11 @@ Launch environment :
 -  chmod 777 script.sh
 -  ./script.sh
 ```
+You should see a welcome message and now you are on the work environment and you can connect to the enemy Network with OpenVPN following the commands on the image below
+
+
+For people who are struggling with the environment :
+
 If you went out of the environment :
 ```
 - docker start -i ctf19_instance
