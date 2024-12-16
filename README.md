@@ -34,3 +34,8 @@ If it still doesnt work then ask to Kamron or Vicente
 ![alt text](./commands.png)
 
 
+###   Mini solution  ###
+
+![alt_text](./mini-solution.png)
+
+
